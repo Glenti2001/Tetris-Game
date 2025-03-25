@@ -13,23 +13,23 @@ let dropInterval;
 
 const colors = ["#ff5733", "#33ff57", "#3357ff", "#ff33a8", "#ff9f33"]; 
 const shapes = [
-    [[1, 1, 1, 1]], // I-shape
+    [[1, 1, 1, 1]], 
     [
         [1, 1],
         [1, 1],
-    ], // O-shape
+    ], 
     [
         [0, 1, 0],
         [1, 1, 1],
-    ], // T-shape
+    ], 
     [
         [1, 1, 0],
         [0, 1, 1],
-    ], // S-shape
+    ], 
     [
         [0, 1, 1],
         [1, 1, 0],
-    ], // Z-shape
+    ], 
 ];
 
 class Shape {
