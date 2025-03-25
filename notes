@@ -1,0 +1,38 @@
+Projekt: Krijimi i "Tetris Game"
+1. krijimi i new Canvas board
+2. kriji i nje rectangle/lines ne Canvas (per test)
+3. zhvendosja e nje rectangle ne canvas (nga pika A ne piken B - per test)
+4. Zhvendosja me shigjetat e tastieres se rectangle-t ne 4 drejtimet (majtas-djathtas-poshte-lart)
+5. limiti i rectangle-t brenda borders (t'mos lejohet dalja e figures jashte kontureve)
+6. Dedektimi kur rectangle arrin fundin e board-it, (Landing)
+7. Boardi i Canvas duhet te kete madhesi dinamike (aq sa eshte browseri), ne menyre qe te dale full-screen
+8. gjenerimi i disa rectangles njeri pas tjetrit (vijueshmeria e programit pa limit)
+9. Rectangles duhet qe te bien poshte ne menyre automatike (ne varesi te hapit dhe kohes)
+10. Limitimi i zhvendosjes vetem majtas-djathtas-poshte (ne menyre qe user-i t'mos kete mundesi ta ngreje rectangle-n perseri lart.
+11. Gjerimi i rectanglaet-t te ri te filloje ne mes te canvasit (qe ti jape user-it kohe te njejte zhvendosjese majtas-djathtas )
+12. Krijo dhe objekte te tjera:
+        basic shapes:
+                +qelize (10x10)
+                +Shtylle vertical (qelize x 4 => 10 x 40)
+                +shtylle horizontal (qelize x 4 => 40 x 10)
+                +katror (qelize x 4 => 20x20)
+                +drejtkendesh vertikal (katror x 2 => 20 x 40)
+                +drejtkendesh horizontal (katror x 2 => 40 x 20)
+        Complicated Shapes:
+                -L L-shape (kombinimi i ne vertical+horizontal sebashku)
+                -_|_ gunga-shape (kombinimi i 2 katroreve dhe nje vertikaleje sebashku)
+13. perzgjidh dhe Gjenerojme elementet ne menyre random... (qe te jete loje dinamike)
+14. perzgjidh shapes me ngjyra random.
+15. Ne cdo land te shape-s, user-it ti shtohen x pike ne varesi te shapes (prsh: vertikal: 5pike, horizontal: 20pike, katror: 10 pike, drejtkendesh: 15 pike)
+15. Rectangle duhet te ndaloje ne momentin qe prek nje shape tjeter of fundin. (landing)
+16. Dedekto kur formohet nje rrjeshte i plote.
+17. kur formohet nje rrjesht i plote, user-i duhet te fitoje bonus +100 pike.
+18. kur formohet nje rrjesht i plote, duhet te fshihet.
+19. Pas cdo rrjeshti te formuar, duhet te rritet niveli i lojes
+20. Ne rritjen e nivelit te lojes, objektet bien me shpejt, dhe user fiton me shume pike percdo formim
+21. Boardi i canvas te shfaqet me kuadrata (qe te shihet me lehte ndarja e qelizave)
+22. Te krijohet funksionaliteti i "Reset Game" qe kur te shtypet si buton, user-i te kete mundesine per te rifilluar gjithcka (cleanBoard / boshatis shapes list / zero piket / etc...)
+23. shpaes, duhet te gjenerohen ne kordinata mbu boshtin 0, (y=0-height)
+23. gameOver -> kur nje element, mbetet tek boshti i siperm
+24. Rotate shape (change horizontal -> vertikal)
+25. Te behet loja pause ne klikim te butonit space.
