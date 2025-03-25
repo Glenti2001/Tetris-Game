@@ -1,29 +1,19 @@
-# 💼 TaxMate
+# 🎮 Tetris Game
 
-**Smart Tax Calculator for Small Businesses & Employees**
+A classic Tetris implementation built with pure JavaScript, HTML, and CSS. Features modern gameplay mechanics with clean code architecture.
 
-## 📌 Overview
-TaxMate is a web application designed to simplify tax calculations for Albanian small businesses and employees. It provides instant computations for:
-- Income tax (tatimi mbi të ardhurat)
-- TVSH (VAT)
-- Social contributions (kontributet sociale)
-- Business expense deductions
-- Annual tax projections
+## ✨ Features
+- **Core Game Logic**
+  - Piece rotation/movement with collision detection
+  - Line clearing and scoring system
+  - Progressive difficulty (speed increases with level)
+  - Game over detection
+- **User Controls**
+  - Keyboard inputs (← → ↓ for movement, ↑ for rotation)
+- **Game Management**
+  - Reset game functionality
+  - Score tracking
+- **Visual Design**
+  - Responsive CSS grid layout
+  - Animated piece movements
 
-## ✨ Key Features
-- **Accurate Calculations**
-  - Real-time tax computation
-  - Multiple fiscal scenarios
-  - Custom deduction inputs
-- **Visual Reports**
-  - Interactive tax breakdown charts
-  - Yearly comparison graphs
-- **User-Friendly Tools**
-  - Mobile-responsive design
-
-## 🛠 Technical Implementation
-- Built with **Angular** (TypeScript)
-- Features:
-  - Dynamic form validation
-  - Chart.js visualizations
-  - Angular Router navigation
